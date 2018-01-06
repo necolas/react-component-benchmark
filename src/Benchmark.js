@@ -193,10 +193,7 @@ export default class Benchmark extends Component<BenchmarkPropsType, BenchmarkSt
       min: sortedElapsedTimes[0],
       median: getMedian(sortedElapsedTimes),
       mean,
-      stdDev,
-      p70: mean + stdDev,
-      p95: mean + stdDev * 2,
-      p99: mean + stdDev * 3
+      stdDev
     });
   }
 }

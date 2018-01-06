@@ -53,10 +53,7 @@ describe('Benchmark', () => {
       min: 'number',
       median: 'number',
       mean: 'number',
-      stdDev: 'number',
-      p70: 'number',
-      p95: 'number',
-      p99: 'number'
+      stdDev: 'number'
     }).forEach(([key, type]) => {
       it(`include a ${type} for ${key}`, () => {
         expect(results).toHaveProperty(key);

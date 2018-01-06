@@ -72,6 +72,3 @@ See [examples/tests](./examples/tests/) for various test integrations.
 * `median`: *number* Median time elapsed
 * `mean`: *number* Mean time elapsed
 * `stdDev`: *number* Standard deviation of all elapsed times
-* `p70`: *number* 70th percentile for time elapsed: `mean + stdDev`
-* `p95`: *number* 95th percentile for time elapsed: `mean + (stdDev * 2)`
-* `p99`: *number* 99th percentile for time elapsed: `mean + (stdDev * 3)`
